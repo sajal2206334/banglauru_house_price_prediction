@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 # Load model and data
 model = pickle.load(open('banglore_home_prices_model.pickle', 'rb'))
